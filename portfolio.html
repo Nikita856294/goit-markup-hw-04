@@ -19,19 +19,26 @@
      
       
        <!-- Navigation -->
-      <nav class="navigation">
+       <nav class="navigation">
         <ul class="nav-link-container link list">
-          <li class="nav-item"><a href="./index.html" class="nav-link-title link ">Cтудия</a></li>
-          <li class="nav-item"><a href="./portfolio.html" class="nav-link-title link  current">Портфолио</a></li>
-          <li class="nav-item"><a href="" class="nav-link-title link  ">Контакты</a></li>
+          <li class="nav-item"><a class="nav-link-title link " href="./index.html" >Cтудия</a></li>
+          <li class="nav-item"><a class="nav-link-title link current" href="./portfolio.html">Портфолио</a></li>
+          <li class="nav-item"><a class="nav-link-title link " href="#" >Контакты</a></li>
         </ul>
       </nav>
       <ul class="header-link-container list">
         <li class="header-link-container-item">
-          <a href="mailto:info@devstudio" class="nav-link link ">info@devstudio.com</a>
+          <a href="mailto:info@devstudio" class="nav-link link">
+            <svg class="nav-link-icon ">
+              <use href="./images/icons.svg#icon-envelope"> </use></svg>
+            info@devstudio.com</a>
         </li>
-        <li class="header-link-container-item">
-          <a href="tel:+380961111111" class="nav-link link ">+38 096 111 11 11</a>
+        <li >
+          <a href="tel:+380961111111" class="nav-link link">
+            <svg class="nav-link-icon ">
+              <use href="./images/icons.svg#icon-smartphone"> 
+            
+              </use>  </svg>+38 096 111 11 11</a>
          
         </li>
       </ul>
@@ -110,7 +117,8 @@
     </main>
   <!-- --footer--> 
   <footer class="footer-section">
-    <div class="container ">
+    <div class="container footer ">
+      <div class="footer-logo-section">
     <a href="" class="link footer-name-company"
       ><span class="company-span "><span>Web</span><span class="name-company-span">Studio</span></a>
     
@@ -119,6 +127,16 @@
       <li class="footer-item list"><a href="mailto:info@example.com" class="footer-link link">info@example.com</a></li>
       <li class="footer-item list"><a href="tel:+380991111111" class="footer-link link">+38 099 111 11 11</a></li>
     </ul>
+  </div>
+  <div class="footer-icon-section">
+    <p class="footer-text">Присоединяйтесь</p>
+    <ul class="footer-icon-list list">
+     <li><a href="#" class="footer-icon-link"><svg class="footer-icon"><use href="./images/icons.svg#icon-instagram"></use></svg></a></li>
+     <li><a href="#" class="footer-icon-link"><svg class="footer-icon"><use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
+     <li><a href="#" class="footer-icon-link"><svg class="footer-icon"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
+     <li><a href="#" class="footer-icon-link"><svg class="footer-icon"><use href="./images/icons.svg#icon-linkedin"></use></svg></a></li>
+    </ul>
+  </div>
   </div>
   </footer>
   </body>
