@@ -350,9 +350,48 @@ body {
 
 /* Footer */
 .footer-section {
+  display: flex;
+  align-items: baseline;
   background: var(--primary-background);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.footer-text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-icon-list {
+  display: flex;
+  margin-top: 20px;
+}
+.footer-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-icon-link:hover,
+.footer-icon-link:focus {
+  background-color: #2196f3;
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  fill: #ffff;
+}
+.footer-logo-section {
+}
+.footer {
+  display: flex;
+  align-items: baseline;
 }
 .name-company-span {
   font-family: Raleway, sans-serif;
@@ -379,7 +418,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-link:hover,
-focus {
+.footer-link:focus {
   color: var(--color-link-footer);
 }
 /* Portfolio */
