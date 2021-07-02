@@ -140,25 +140,25 @@ body {
 .nav-link:focus {
   color: var(--color-link-title);
 }
-.nav-link-icon-envelope{
-  width:16px;
-  height:12px;
-  margin-right:10px;
+.nav-link-icon-envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
 }
 
-.nav-link-icon:nth-child(1){
-  width:16px;
-  height:12px;
-  margin-right:10px;
-  fill:#757575
+.nav-link-icon:nth-child(1) {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: #757575;
 }
-.nav-link-icon:nth-child(2){
-  width:10px;
-  height:16px;
-  margin-right:10px;
-  fill:#757575;
+.nav-link-icon:nth-child(2) {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: #757575;
 }
-.nav-link-icon:hover{
+.nav-link-icon:hover {
   fill: var(--color-link-title);
 }
 /* main content section */
@@ -181,11 +181,15 @@ body {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image:linear-gradient(to right,rgba(255,0,0,0),rgba(255,0,0,0)), url( "../images/main.jpg");
-  background-repeat:no-repeat;
-  background-position:center;
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 0, 0, 0),
+      rgba(255, 0, 0, 0)
+    ),
+    url('../images/main.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
 
 .main-btn {
   background: var(--background-button);
@@ -221,6 +225,12 @@ body {
 .section-advantages {
   padding-top: 94px;
 }
+.advantages-icon {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
 .link-title {
   text-transform: uppercase;
   font-weight: bold;
@@ -248,6 +258,59 @@ body {
   background: var(--our-team-background);
 }
 
+.our-team-icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  fill: #afb1b8;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin-right: 10px;
+}
+.our-team-icon-link:hover,
+.our-team-icon-link:focus {
+  fill: #fff;
+  background-color: #2196f3;
+}
+.our-team-icon-list {
+  display: flex;
+  margin-top: 16px;
+}
+.our-team-icon {
+  width: 20px;
+  height: 20px;
+}
+/* Client */
+.client-icon-link {
+  display: flex;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  justify-content: center;
+  aligh-items: center;
+  width: 170px;
+  height: 92px;
+  margin-right: 30px;
+}
+.client-icon-link:hover,
+.client-icon-link:focus {
+  fill: #2196f3;
+  border: 1px solid #2196f3;
+}
+.client-icon {
+  width: 84px;
+  height: 41px;
+  fill: #afb1b8;
+  margin-top: 23px;
+}
+.client-icon:hover,
+.client-icon:focus {
+  fill: #2196f3;
+}
+.client-icon-list {
+  display: flex;
+}
 /* What are we doing */
 
 .section-title {
